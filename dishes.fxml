@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.DishesController">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0">
+         <children>
+            <ImageView fitHeight="450.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rsz_best_food_quotes_pics_images__20_1.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="close" layoutX="323.0" layoutY="2.0" mnemonicParsing="false" onAction="#Clickclose" prefHeight="25.0" prefWidth="27.0" text="Button">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Yash%20Dave/Documents/NetBeansProjects/JavaFXApplication1/src/javafxapplication1/close.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="350.0" prefHeight="450.0" prefWidth="350.0">
+         <children>
+            <ScrollPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0" vbarPolicy="ALWAYS" vvalue="0.24">
+              <content>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="993.0" prefWidth="350.0">
+                     <children>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@rsz_0959a7bf8e8e1ed.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="100.0">
+                           <image>
+                              <Image url="@rsz_banner_sweet-and-sour-paneer.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="200.0">
+                           <image>
+                              <Image url="@rsz_download_2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="300.0">
+                           <image>
+                              <Image url="@rsz_download.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="400.0">
+                           <image>
+                              <Image url="@rsz_home-page-banner2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="503.0">
+                           <image>
+                              <Image url="@rsz_banner_sweet-and-sour-paneer.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="600.0">
+                           <image>
+                              <Image url="@rsz_banner_kadai-paneer.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="700.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="700.0">
+                           <image>
+                              <Image url="@rsz_download_2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="801.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="800.0">
+                           <image>
+                              <Image url="@rsz_home-page-banner2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="900.0" opacity="0.91" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="900.0">
+                           <image>
+                              <Image url="@rsz_download.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="bd1" layoutX="46.0" layoutY="20.0" mnemonicParsing="false" onAction="#Click" prefHeight="43.0" prefWidth="135.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd2" layoutX="17.0" layoutY="129.0" mnemonicParsing="false" onAction="#Click" prefHeight="43.0" prefWidth="137.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd3" layoutX="207.0" layoutY="229.0" mnemonicParsing="false" onAction="#Click" prefHeight="33.0" prefWidth="114.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd4" layoutX="223.0" layoutY="329.0" mnemonicParsing="false" onAction="#Click" prefHeight="39.0" prefWidth="98.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd5" layoutX="3.0" layoutY="425.0" mnemonicParsing="false" onAction="#Click" prefHeight="40.0" prefWidth="120.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd6" layoutX="33.0" layoutY="532.0" mnemonicParsing="false" onAction="#Click" prefHeight="42.0" prefWidth="137.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd7" layoutX="43.0" layoutY="629.0" mnemonicParsing="false" onAction="#Click" prefHeight="39.0" prefWidth="121.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd8" layoutX="195.0" layoutY="721.0" mnemonicParsing="false" onAction="#Click" prefHeight="44.0" prefWidth="126.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd9" layoutX="17.0" layoutY="825.0" mnemonicParsing="false" onAction="#Click" prefHeight="40.0" prefWidth="108.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                        <Button fx:id="bd10" layoutX="233.0" layoutY="929.0" mnemonicParsing="false" onAction="#Click" prefHeight="33.0" prefWidth="100.0" styleClass="startbutton" stylesheets="@button6.css" text="Button" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="left" mnemonicParsing="false" onAction="#Clickleft" prefHeight="25.0" prefWidth="27.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/Yash%20Dave/Documents/NetBeansProjects/JavaFXApplication1/src/javafxapplication1/left.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

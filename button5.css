@@ -1,0 +1,42 @@
+.startbutton
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #f7e0a3;
+    -fx-background-radius: 22;
+    -fx-font-size: 11;
+    -fx-text-fill: #222831;
+    -fx-width: 105px;
+    -fx-height: 82px;
+    -fx-border-color:#222831;
+    -fx-border-radius: 22;
+
+    -fx-border-width: 3;
+}
+
+.startbutton:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #222831;
+    -fx-background-radius: 22;
+    -fx-border-radius: 22;
+    -fx-font-size: 11;
+    -fx-text-fill: #f7e0a3;
+    -fx-border-color:#f7e0a3;
+
+    -fx-border-width: 3;
+}
+
+.startbutton:pressed
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #222831;
+    -fx-background-radius: 22;
+    -fx-font-size: 11;
+    -fx-text-fill: #f7e0a3;
+    -fx-border-color:#f7e0a3;
+    -fx-border-radius: 22;
+
+    -fx-border-width: 3;
+    -fx-rotate: 10;
+
+}

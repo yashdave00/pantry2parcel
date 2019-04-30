@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.SecondpageController">
+     <children>
+      <ImageView fitHeight="450.0" fitWidth="700.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@secondpagebg.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="450.0" prefWidth="700.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="38.0" prefHeight="139.0" prefWidth="370.0" text="Where do you want to order from today?" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Georgia" size="23.0" />
+               </font></Label>
+            <TilePane hgap="120.0" layoutX="94.0" layoutY="197.0" prefHeight="98.0" prefWidth="557.0" vgap="20.0">
+               <children>
+                  <Button fx:id="hadapsarbutton" mnemonicParsing="false" onAction="#HadapsarClick" prefHeight="81.0" prefWidth="105.0" styleClass="startbutton" stylesheets="@button5.css" text="HADAPSAR">
+                     <font>
+                        <Font name="Bold Italic Art" size="13.0" />
+                     </font></Button>
+                  <Button fx:id="hinjewadibutton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#HinjewadiClick" prefHeight="81.0" prefWidth="105.0" styleClass="startbutton" stylesheets="@button5.css" text="HINJEWADI" />
+                  <Button fx:id="banerbutton" mnemonicParsing="false" onAction="#BanerClick" prefHeight="81.0" prefWidth="105.0" styleClass="startbutton" stylesheets="@button5.css" text="BANER" />
+               </children>
+            </TilePane>
+            <TilePane hgap="120.0" layoutX="208.0" layoutY="324.0" prefHeight="98.0" prefWidth="557.0" vgap="20.0">
+               <children>
+                  <Button fx:id="vimannagarbutton" mnemonicParsing="false" onAction="#VimanagarClick" prefHeight="81.0" prefWidth="105.0" styleClass="startbutton" stylesheets="@button5.css" text="DECCAN" />
+                  <Button fx:id="aundhbutton" mnemonicParsing="false" onAction="#AundhClick" prefHeight="81.0" prefWidth="105.0" styleClass="startbutton" stylesheets="@button5.css" text="AUNDH" />
+               </children>
+            </TilePane>
+            <Button fx:id="close" onAction="#Clickclose" layoutX="659.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="27.0" text="Button">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Yash%20Dave/Documents/NetBeansProjects/JavaFXApplication1/src/javafxapplication1/close.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+     
+   </children>
+    
+</AnchorPane>

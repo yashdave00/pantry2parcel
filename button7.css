@@ -1,0 +1,37 @@
+.startbutton
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #c8e6f5;
+
+    -fx-font-size: 10;
+    -fx-text-fill: black;
+    -fx-border-color:#e4734f;
+
+    -fx-border-width: 3;
+}
+
+.startbutton:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #e4734f;
+
+    -fx-font-size: 10;
+    -fx-text-fill: #c8e6f5;
+    -fx-border-color:#c8e6f5;
+
+    -fx-border-width: 3;
+}
+
+.startbutton:pressed
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #e4734f;
+
+    -fx-font-size: 10;
+    -fx-text-fill: #c8e6f5;
+    -fx-border-color:#c8e6f5;
+
+    -fx-border-width: 3;
+    -fx-rotate: 10;
+
+}

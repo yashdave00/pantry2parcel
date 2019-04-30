@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #cf3030;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Fourth">
+   <children>
+      <ImageView fitHeight="179.0" fitWidth="252.0" layoutY="249.0" opacity="0.91" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/pic.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="25.0" layoutY="14.0" prefHeight="137.0" prefWidth="136.0" style="-fx-background-color: #eef5db;" />
+      <Label layoutX="207.0" layoutY="99.0" prefHeight="137.0" prefWidth="136.0" style="-fx-background-color: #eef5db;" />
+      <Label layoutX="397.0" layoutY="31.0" prefHeight="137.0" prefWidth="136.0" style="-fx-background-color: #eef5db;" />
+      <Label layoutX="429.0" layoutY="236.0" prefHeight="137.0" prefWidth="136.0" style="-fx-background-color: #eef5db;" />
+      <Label layoutX="43.0" layoutY="91.0" prefHeight="17.0" prefWidth="97.0" text="Cost" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="417.0" layoutY="48.0" prefHeight="35.0" prefWidth="97.0">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font></Label>
+      <Label layoutX="227.0" layoutY="176.0" prefHeight="17.0" prefWidth="97.0" text="Cost" />
+      <Label layoutX="417.0" layoutY="108.0" prefHeight="17.0" prefWidth="97.0" text="Cost" />
+      <Label layoutX="449.0" layoutY="316.0" prefHeight="17.0" prefWidth="97.0" text="Cost" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="31.0" prefHeight="35.0" prefWidth="97.0">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="65.0" layoutX="66.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/zomato.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="116.0" layoutX="233.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/fp.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="84.0" layoutX="430.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/ue.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="84.0" layoutX="457.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/sw.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0">
+         <children>
+            <ImageView fitHeight="450.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Downloads/rsz_best_food_quotes_pics_images__20_1.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="101.0" layoutY="383.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="137.0" text="BACK" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="350.0" prefHeight="450.0" prefWidth="350.0">
+         <children>
+            <ScrollPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0" vbarPolicy="ALWAYS" vvalue="0.48">
+              <content>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="993.0" prefWidth="350.0">
+                     <children>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@dishespics/rsz_download_2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="100.0">
+                           <image>
+                              <Image url="@dishespics/rsz_0959a7bf8e8e1ed.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="200.0">
+                           <image>
+                              <Image url="@dishespics/rsz_download.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="300.0">
+                           <image>
+                              <Image url="@dishespics/rsz_banner_kadai-paneer.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="400.0">
+                           <image>
+                              <Image url="@dishespics/rsz_download_2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="503.0">
+                           <image>
+                              <Image url="@dishespics/rsz_banner_sweet-and-sour-paneer.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="600.0">
+                           <image>
+                              <Image url="@dishespics/rsz_download.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="700.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="700.0">
+                           <image>
+                              <Image url="@dishespics/rsz_0959a7bf8e8e1ed.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="801.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="800.0">
+                           <image>
+                              <Image url="@dishespics/rsz_download_2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="90.0" fitWidth="350.0" layoutY="900.0" opacity="0.91" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="900.0">
+                           <image>
+                              <Image url="@dishespics/rsz_home-page-banner2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="150.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="javafxapplication1.PopupController">
+   <children>
+      <Label fx:id="warning" alignment="CENTER" layoutX="23.0" layoutY="29.0" prefHeight="28.0" prefWidth="154.0" text="Try Again!">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="close" onAction="#Click" layoutX="43.0" layoutY="86.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" styleClass="startbutton" stylesheets="@button.css" text="Close" />
+   </children>
+</AnchorPane>

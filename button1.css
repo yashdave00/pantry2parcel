@@ -1,0 +1,37 @@
+.startbutton
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #c5c5c5;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: #222831;
+    -fx-border-color:#222831;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.startbutton:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #222831;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: #fafafa;
+    -fx-border-color:#fafafa;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.startbutton:pressed
+{
+    -fx-font-weight: bold;
+    -fx-background-color: #222831;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: #c5c5c5;
+    -fx-border-color:#222831;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-rotate: 10;
+
+}
